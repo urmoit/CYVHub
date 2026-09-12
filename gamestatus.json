@@ -6,11 +6,14 @@
       "maintenance": true,
       "lockReason": "Script under maintenance",
       "infoTitle": "Rivals — Under Maintenance",
-      "infoBody": "Rivals is being rewritten from scratch with tdfgsdfsdfdsf"
+      "infoBody": "Rivals is being rewritten from scratch with the CYVUI Library.\n\nExpected: new UI, cleaner feature layout, and updated modules.\n\nThis script is temporarily locked until the rebuild is ready."
     },
     "Grow a Garden 2": {
       "disabled": false,
-      "maintenance": false
+      "maintenance": true,
+      "lockReason": "Script under maintenance",
+      "infoTitle": "Rivals — Under Maintenance",
+      "infoBody": "Rivals is being rewritten from scratch with the CYVUI Library.\n\nExpected: new UI, cleaner feature layout, and updated modules.\n\nThis script is temporarily locked until the rebuild is ready."
     },
     "Slime RNG": {
       "disabled": false,
