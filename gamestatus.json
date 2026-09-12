@@ -1,5 +1,5 @@
 {
-  "_note": "CYVHUB remote game status. The key system fetches this file on load: https://raw.githubusercontent.com/urmoit/CYVHub/refs/heads/main/games/gamestatus.json — Edit here to enable/disable games, set maintenance + messages, or override a game's ScriptUrl. No key-system edit or reobfuscation needed. Keys: disabled, maintenance, lockReason, infoTitle, infoBody, scriptUrl. A brand-new game can be added remotely with placeIds + scriptUrl (+ optional mainPlaceId, universeId).",
+  "_note": "CYVHUB remote game status. The key system fetches this file on load: https://raw.githubusercontent.com/urmoit/CYVHub/refs/heads/main/gamestatus.json — Edit here to enable/disable games, set maintenance + messages, or override a game's ScriptUrl. No key-system edit or reobfuscation needed. Keys: disabled, maintenance, lockReason, infoTitle, infoBody, scriptUrl. A brand-new game can be added remotely with placeIds + scriptUrl (+ optional mainPlaceId, universeId).",
   "games": {
     "Rivals": {
       "disabled": false,
