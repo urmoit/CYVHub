@@ -1,0 +1,31 @@
+{
+  "_note": "CYVHUB remote game status. The key system fetches this file on load: https://raw.githubusercontent.com/urmoit/CYVHub/refs/heads/main/games/gamestatus.json — Edit here to enable/disable games, set maintenance + messages, or override a game's ScriptUrl. No key-system edit or reobfuscation needed. Keys: disabled, maintenance, lockReason, infoTitle, infoBody, scriptUrl. A brand-new game can be added remotely with placeIds + scriptUrl (+ optional mainPlaceId, universeId).",
+  "games": {
+    "Rivals": {
+      "disabled": false,
+      "maintenance": true,
+      "lockReason": "Script under maintenance",
+      "infoTitle": "Rivals — Under Maintenance",
+      "infoBody": "Rivals is being rewritten from scratch with the CYVUI Library.\n\nExpected: new UI, cleaner feature layout, and updated modules.\n\nThis script is temporarily locked until the rebuild is ready."
+    },
+    "Grow a Garden 2": {
+      "disabled": false,
+      "maintenance": false
+    },
+    "Slime RNG": {
+      "disabled": false,
+      "maintenance": false
+    },
+    "Clean The World": {
+      "disabled": false,
+      "maintenance": true,
+      "lockReason": "Script under maintenance",
+      "infoTitle": "Clean The World — Under Maintenance",
+      "infoBody": "Clean The World is being rewritten from scratch with the CYVUI Library.\n\nExpected: new UI, cleaner feature layout, and updated modules.\n\nThis script is temporarily locked until the rebuild is ready."
+    },
+    "Airport Tycoon": {
+      "disabled": false,
+      "maintenance": false
+    }
+  }
+}
