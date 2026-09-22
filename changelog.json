@@ -1,0 +1,42 @@
+{
+  "title": "CYVHUB Update",
+  "description": "Latest CYVHUB script and key-system release notes.",
+  "announcement": "CYVHUB Update @everyone",
+  "sourceChannelId": "1361044917677195668",
+  "scriptLink": "https://discord.com/channels/1360986140978446356/1361044944592048459",
+  "entries": [
+    {
+      "version": "1.0.0",
+      "date": "2026-09-18",
+      "title": "Build a Gun Army",
+      "changes": [
+        "[+] Auto Collect Coins added. Fires CurrencyPickup for all LootSpawnedClient GUIDs as soon as they hit the path, without teleporting or walking.",
+        "[+] Collect Mode added with All (Instant Path) and Near Player modes.",
+        "[+] Collect Interval added with a 0.05–1 second scan-rate slider.",
+        "[+] Collect All Now added for current coins on the path.",
+        "[+] Teleport to CollectZone added.",
+        "[+] Auto Roll Crates added with automatic open, buy, and discard flow.",
+        "[+] Auto Open Crates added when RolledWeapon is nil.",
+        "[+] Auto Buy added when currency is at least the crate cost.",
+        "[+] Auto Discard added with Auto-Decline when the Broke filter is enabled.",
+        "[+] Roll Delay added with a 0.2–3 second slider.",
+        "[+] Auto Place New Guns / Mutations added for exact unit slots and in-place mutation upgrades.",
+        "[+] Place Pending Now added.",
+        "[+] TP to Pending Slot added."
+      ]
+    },
+    {
+      "version": "Key System",
+      "date": "2026-09-18",
+      "title": "CYVHUB Key System",
+      "changes": [
+        "[+] Build a Gun Army added as a new supported game (PlaceId 134162299584012).",
+        "[-] Remote Game Status removed. Games now use the local SUPPORTED_GAMES table instead of fetching or caching gamestatus.json.",
+        "[~] Scripts Cards polished with tighter rows, smaller icons, softer strokes, compact Run/Info buttons, and a wider name block."
+      ]
+    }
+  ],
+  "thanks": "Thanks for using CYVHUB",
+  "reactionRoleChannelId": "1361042328416157877",
+  "announcementChannelId": "1361044781198872656"
+}

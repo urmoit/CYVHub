@@ -1,0 +1,51 @@
+{
+  "title": "CYVHub Script Status",
+  "description": "Current supported games from the SUPPORTED_GAMES table in Key_Sytem.lua.",
+  "updatedAt": "2026-09-18T00:53:52Z",
+  "source": "Key_Sytem.lua",
+  "games": [
+    {
+      "name": "Rivals",
+      "status": "maintenance",
+      "description": "Script under maintenance while it is being rewritten with the CYVUI Library.",
+      "mainPlaceId": 17625359962,
+      "placeIds": [17625359962, 129604661913557, 133215910299950, 117398147513099, 18126510175, 71874690745115],
+      "scriptUrl": "https://raw.githubusercontent.com/urmoit/CYVHub/refs/heads/main/games/Rivals.lua"
+    },
+    {
+      "name": "Grow a Garden 2",
+      "status": "operational",
+      "mainPlaceId": 97598239454123,
+      "placeIds": [97598239454123],
+      "scriptUrl": "https://raw.githubusercontent.com/urmoit/CYVHub/refs/heads/main/games/gag2.lua"
+    },
+    {
+      "name": "Slime RNG",
+      "status": "operational",
+      "mainPlaceId": 92416421522960,
+      "placeIds": [92416421522960],
+      "scriptUrl": "https://raw.githubusercontent.com/urmoit/CYVHub/refs/heads/main/games/SlimeRNG.lua"
+    },
+    {
+      "name": "Clean The World",
+      "status": "operational",
+      "mainPlaceId": 105767799784652,
+      "placeIds": [105767799784652],
+      "scriptUrl": "https://raw.githubusercontent.com/urmoit/CYVHub/refs/heads/main/games/CleanTheWorld.lua"
+    },
+    {
+      "name": "Airport Tycoon",
+      "status": "operational",
+      "mainPlaceId": 138486812747835,
+      "placeIds": [138486812747835],
+      "scriptUrl": "https://raw.githubusercontent.com/urmoit/CYVHub/refs/heads/main/games/AirportTycoon.lua"
+    },
+    {
+      "name": "Build a Gun Army",
+      "status": "operational",
+      "mainPlaceId": 134162299584012,
+      "placeIds": [134162299584012],
+      "scriptUrl": "https://raw.githubusercontent.com/urmoit/CYVHub/refs/heads/main/games/BuildAGunArmy.lua"
+    }
+  ]
+}
