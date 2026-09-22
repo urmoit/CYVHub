@@ -1,6 +1,6 @@
 {
   "title": "CYVHub Script Status",
-  "description": "Current supported games from the SUPPORTED_GAMES table in Key_Sytem.lua.",
+  "description": "Live availability and script information.",
   "updatedAt": "2026-09-18T00:53:52Z",
   "source": "Key_Sytem.lua",
   "games": [
