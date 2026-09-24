@@ -1,0 +1,24 @@
+{
+  "title": "CYVUI Library Changelog",
+  "announcement": "CYVUI Library Update",
+  "description": "Release notes for the CYVUI library used by CYVHub scripts.",
+  "historyUrl": "https://github.com/urmoit/CYVUILibrary/blob/main/CHANGELOG.md",
+  "entries": [
+    {
+      "version": "v1.1.1",
+      "date": "2026-09-20",
+      "title": "CYVUI Library has been updated",
+      "changes": [
+        "Dropdown redesigned: new layout, search field, Select All / Deselect All for multi-select, compact labels, accent border while open, and outside-click close.",
+        "Settings fixed: theme preset swatches use reliable click handlers; applying a theme updates accent surfaces live; UI transparency affects the main frame and panels; destroying the UI cleans up the notification holder.",
+        "Notifications now match the main UI: panel, border, and text colors follow the theme; type color appears only on the accent bar and progress line; the Notifications toggle is respected.",
+        "Floating toggle is always available: a rounded square is created on PC and mobile, can be dragged, and toggles the UI without a MobileToggle flag.",
+        "Subtab polish: added a chip-style active state.",
+        "Single active window guard: CreateWindow destroys the previous window.",
+        "Watermark: added a real on-screen watermark showing title, hub, version, FPS, and ping, with a toggle in Settings → General.",
+        "Config: built-in Save/Load uses CYVUI_<name>.json when writefile/readfile are available; OnSave/OnLoad hooks remain supported.",
+        "Reload purge: loading any CYVUI script destroys prior CYVUI ScreenGuis, including tracked leftovers in CoreGui and PlayerGui."
+      ]
+    }
+  ]
+}
