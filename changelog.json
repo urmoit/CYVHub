@@ -1,24 +1,57 @@
 {
-  "title": "CYVHUB Update",
-  "description": "Latest CYVHUB script and key-system release notes.",
-  "announcement": "CYVHUB Update @everyone",
-  "sourceChannelId": "1361044917677195668",
-  "scriptLink": "https://discord.com/channels/1360986140978446356/1361044944592048459",
-  "entries": [
+  "name": "CYVHUB",
+  "product": "CYVHUB Loader",
+  "version": "1.1.0",
+  "date": "unknown",
+  "changes": [
     {
-      "version": "1.0.2",
-      "date": "2026-10-04",
-      "title": "Airport Tycoon",
-      "changes": [
-        "-- Player tab",
-        "[+] "Infinite Jump" Improved. No longer fires while seated.",
-        "[+] "NoClip" Improved. Collisions restore when toggled off.",
-        "[+] "Fly" Improved. LeftShift 3x boost, thumbstick support, flight now phases through parts."
-      ]
-    }
+      "type": "changed",
+      "title": "Loader",
+      "summary": "Refactored into a lightweight PlaceId router.",
+      "details": "It detects the current place (with UniverseId fallback) and only loads the matching game's script; unsupported places are handled cleanly."
+    },
+    {
+      "type": "changed",
+      "summary": "Game logic split into `game/<gamename>.lua`.",
+      "details": "Every game's features now live in their own standalone script instead of one long unified loader."
+    },
+    {
+      "type": "changed",
+      "title": "CYVHUB UI",
+      "summary": "Toggle Reworked.",
+      "details": "The menu toggle is now fixed in the bottom-left corner and can no longer be dragged."
+    },
+    {
+      "type": "added",
+      "title": "CYVHUB UI",
+      "summary": "Open / Close Animations Reworked.",
+      "details": "Smooth, consistent grow-from-toggle and shrink-back animations across every game script."
+    },
+    {
+      "type": "added",
+      "title": "Universal",
+      "summary": "Fallback Added.",
+      "details": "Unsupported places now load `game/universal.lua` with Player ESP, walk speed, jump power, infinite jump, anti-AFK, and the shared Fly / No-clip / Target Fling tools."
+    },
+    {
+      "type": "removed",
+      "title": "Clean the WORLD!",
+      "summary": "Removed.",
+      "details": "Game taken down; module and all references removed."
+    },
+    {
+      "type": "added",
+      "title": "Home",
+      "summary": "Premium Tab Added.",
+      "details": "Three premium plan cards (7 Days $2.50 / 30 Days $6.00 / Lifetime $14.00) with colored backgrounds (blue, purple, gold), checkmark feature lists, and \"Visit our website to buy\" footers. Free vs Premium comparison and Join Discord footer included."
+    },
+    {
+      "type": "added",
+      "title": "Settings",
+      "summary": "Behavior & Data Groups Added.",
+      "details": "Debug Mode toggle, Auto-Load Config on Start toggle, Show Notifications toggle, Notification Duration slider (1–15s), and Reset All Settings button."
     }
   ],
-  "thanks": "Thanks for using CYVHUB",
-  "reactionRoleChannelId": "1361042328416157877",
-  "announcementChannelId": "1361044781198872656"
+  "footer": "Thanks for using CYVHUB",
+  "scriptLink": "https://discord.com/channels/1360986140978446356/1361044944592048459"
 }
