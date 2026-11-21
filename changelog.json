@@ -5,10 +5,15 @@
   "date": "unknown",
   "changes": [
     {
+      "type": "added",
+      "summary": "Loading Screen Added.",
+      "details": "Full-screen dark overlay with progress bar, status text, and changelog. Matches the MonoUI menu style."
+    },
+    {
       "type": "changed",
       "title": "Loader",
       "summary": "Refactored into a lightweight PlaceId router.",
-      "details": "It detects the current place (with UniverseId fallback) and only loads the matching game's script; unsupported places are handled cleanly."
+      "details": "Detects the current place (with UniverseId fallback) and only loads the matching game's script; unsupported places are handled cleanly."
     },
     {
       "type": "changed",
