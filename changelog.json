@@ -1,62 +1,85 @@
 {
   "name": "CYVHUB",
-  "product": "CYVHUB Loader",
   "version": "1.1.0",
   "date": "unknown",
-  "changes": [
-    {
-      "type": "added",
-      "summary": "Loading Screen Added.",
-      "details": "Full-screen dark overlay with progress bar, status text, and changelog. Matches the MonoUI menu style."
-    },
-    {
-      "type": "changed",
-      "title": "Loader",
-      "summary": "Refactored into a lightweight PlaceId router.",
-      "details": "Detects the current place (with UniverseId fallback) and only loads the matching game's script; unsupported places are handled cleanly."
-    },
-    {
-      "type": "changed",
-      "summary": "Game logic split into `game/<gamename>.lua`.",
-      "details": "Every game's features now live in their own standalone script instead of one long unified loader."
-    },
-    {
-      "type": "changed",
-      "title": "CYVHUB UI",
-      "summary": "Toggle Reworked.",
-      "details": "The menu toggle is now fixed in the bottom-left corner and can no longer be dragged."
-    },
-    {
-      "type": "added",
-      "title": "CYVHUB UI",
-      "summary": "Open / Close Animations Reworked.",
-      "details": "Smooth, consistent grow-from-toggle and shrink-back animations across every game script."
-    },
-    {
-      "type": "added",
-      "title": "Universal",
-      "summary": "Fallback Added.",
-      "details": "Unsupported places now load `game/universal.lua` with Player ESP, walk speed, jump power, infinite jump, anti-AFK, and the shared Fly / No-clip / Target Fling tools."
-    },
-    {
-      "type": "removed",
-      "title": "Clean the WORLD!",
-      "summary": "Removed.",
-      "details": "Game taken down; module and all references removed."
-    },
-    {
-      "type": "added",
-      "title": "Home",
-      "summary": "Premium Tab Added.",
-      "details": "Three premium plan cards (7 Days $2.50 / 30 Days $6.00 / Lifetime $14.00) with colored backgrounds (blue, purple, gold), checkmark feature lists, and \"Visit our website to buy\" footers. Free vs Premium comparison and Join Discord footer included."
-    },
-    {
-      "type": "added",
-      "title": "Settings",
-      "summary": "Behavior & Data Groups Added.",
-      "details": "Debug Mode toggle, Auto-Load Config on Start toggle, Show Notifications toggle, Notification Duration slider (1–15s), and Reset All Settings button."
-    }
-  ],
   "footer": "Thanks for using CYVHUB",
-  "scriptLink": "https://discord.com/channels/1360986140978446356/1361044944592048459"
+  "scriptLink": "https://discord.com/channels/1360986140978446356/1361044944592048459",
+  "scripts": [
+    {
+      "name": "CYVHUB Loader",
+      "icon": "⚙️",
+      "version": "1.1.0",
+      "changes": [
+        {
+          "type": "added",
+          "summary": "Loading screen added.",
+          "details": "Full-screen dark overlay with progress bar, status text, and changelog. Matches the MonoUI menu style."
+        },
+        {
+          "type": "changed",
+          "summary": "Refactored into a lightweight PlaceId router.",
+          "details": "It detects the current place (with UniverseId fallback) and only loads the matching game's script; unsupported places are handled cleanly."
+        },
+        {
+          "type": "changed",
+          "summary": "Game logic split into `game/<gamename>.lua`.",
+          "details": "Every game's features now live in their own standalone script instead of one long unified loader."
+        }
+      ]
+    },
+    {
+      "name": "CYVHUB UI",
+      "icon": "🎨",
+      "version": "1.1.0",
+      "changes": [
+        {
+          "type": "changed",
+          "title": "Toggle",
+          "summary": "Reworked.",
+          "details": "The menu toggle is now fixed in the bottom-left corner and can no longer be dragged."
+        },
+        {
+          "type": "added",
+          "title": "Open / Close animations",
+          "summary": "Reworked.",
+          "details": "Smooth, consistent grow-from-toggle and shrink-back animations across every game script."
+        },
+        {
+          "type": "added",
+          "title": "Home",
+          "summary": "Premium tab added.",
+          "details": "Three premium plan cards (7 Days $2.50 / 30 Days $6.00 / Lifetime $14.00) with colored backgrounds (blue, purple, gold), checkmark feature lists, and \"Visit our website to buy\" footers. Free vs Premium comparison and Join Discord footer included."
+        },
+        {
+          "type": "added",
+          "title": "Settings",
+          "summary": "Behavior & Data groups added.",
+          "details": "Debug Mode toggle, Auto-Load Config on Start toggle, Show Notifications toggle, Notification Duration slider (1–15s), and Reset All Settings button."
+        }
+      ]
+    },
+    {
+      "name": "Universal",
+      "icon": "🌐",
+      "changes": [
+        {
+          "type": "added",
+          "summary": "Universal fallback added.",
+          "details": "Unsupported places now load `game/universal.lua` with Player ESP, walk speed, jump power, infinite jump, anti-AFK, and the shared Fly / No-clip / Target Fling tools."
+        }
+      ]
+    },
+    {
+      "name": "Games",
+      "icon": "🎮",
+      "changes": [
+        {
+          "type": "removed",
+          "title": "Clean the WORLD!",
+          "summary": "Removed.",
+          "details": "Game taken down; module and all references removed."
+        }
+      ]
+    }
+  ]
 }
